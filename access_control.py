@@ -2,8 +2,8 @@
 
 print("ACCESS CONTROL SYSTEM")
 
-u = "admin"
-p = "1234"
+u = "srijan"
+p = "xan@192"
 
 count = 0
 
