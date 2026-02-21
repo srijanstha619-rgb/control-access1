@@ -32,8 +32,9 @@ This is a simple **Python-based Access Control System** for managing users and t
 2. Clone or download this repository.  
 3. Run the program in a terminal:  
 
-```bash
+```
 python access_control.py
+```
 
 ## Usage
 
