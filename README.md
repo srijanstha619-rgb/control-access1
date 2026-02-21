@@ -34,3 +34,37 @@ This is a simple **Python-based Access Control System** for managing users and t
 
 ```bash
 python access_control.py
+
+## Usage
+
+1. **Login**
+   - Enter your username.  
+   - Specify the action you want to perform:  
+     - `view`  
+     - `create`  
+     - `edit_all`  
+     - `edit_own`  
+     - `delete`  
+   - The system will check your permissions and return a **GRANTED** or **DENIED** message.
+
+2. **Register**
+   - Enter a new username.  
+   - Choose a role from the available options:  
+     - `admin`  
+     - `editor`  
+     - `viewer`  
+   - The user is saved to `users.json`.
+
+3. **Exit**
+   - Choose the exit option to safely close the system.
+
+---
+
+## Future Improvements
+
+- **Password Authentication**: Add login passwords for secure access.  
+- **Role Editing**: Allow admins to change roles of existing users.  
+- **User Deletion**: Enable removing users from the system.  
+- **Database Storage**: Move from JSON to a proper database for scalability.  
+- **Action Logging**: Track and log user actions for audit purposes.  
+- **GUI Interface**: Implement a graphical interface for easier interaction.
