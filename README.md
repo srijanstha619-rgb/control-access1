@@ -58,8 +58,6 @@ python access_control.py
 3. **Exit**
    - Choose the exit option to safely close the system.
 
----
-
 ## Future Improvements
 
 - **Password Authentication**: Add login passwords for secure access.  
