@@ -10,7 +10,7 @@ ROLE_PERMISSIONS = {
 
 def load_data():
     if not os.path.exists(DATA_FILE):
-        default_users = {"alice": "admin", "bob": "editor", "charlie": "viewer"}
+        default_users = {"Hari": "admin", "Shyam": "editor", "Ray": "viewer"}
         save_data(default_users)
         return default_users
     with open(DATA_FILE, "r") as f:
